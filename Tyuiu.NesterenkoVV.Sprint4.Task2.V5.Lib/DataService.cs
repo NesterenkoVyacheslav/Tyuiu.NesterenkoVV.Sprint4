@@ -8,7 +8,7 @@ namespace Tyuiu.NesterenkoVV.Sprint4.Task2.V5.Lib
             int p = 1;
             for (int i = 0; i < array.Length; i++)
             {
-                if ((i+1) % 2 == 0)
+                if (array[i] % 2 == 0)
                 {
                     p *= array[i];
                 }
